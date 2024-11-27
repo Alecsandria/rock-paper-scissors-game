@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-white font-sans;
+    background-color: hsl(214, 47%, 23%);
+  }
+  h1 {
+    @apply font-bold text-2xl leading-5 md:text-4xl md:leading-7;
+  }
+}
+
+@layer components {
+  .rulesBtn {
+    @apply uppercase border rounded-lg border-white py-2 px-10 font-semibold;
+  }
+}
